@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	    <link rel="stylesheet" type="text/css" href="css/style.css">
+      <title>FFC:Survey Form</title>
+  </head> 
+  <body>
+    <h1 id="title">Survey Form</h1>
+	<div class="container">
+		<p id="description">Let us know how we can improve freeCodeCamp</p>
+		<form id="survey-form">
+			<div id="name-label">
+				<label name="name">* Name: </label>
+				<input type ="text"  placeholder="Enter your name" required>
+			</div>		
+
+			<div id="email-label">
+				<label name="email" >* Email: </label>
+				<input type ="email" id="eamil"  placeholder="Enter your Email" required>
+			</div>	
+			<div id="number-label">
+				<label >* Age: </label>
+			    <input type="age" class="ip-age" placeholder="Age" min="20" max="30" required><br>
+	
+			</div>
+			<div>
+				<label id="rol">Which option best describes your current role? </label>
+				<select  type ="dropdown" id="dropdown" selected="Select an option" required>
+					<option disabled>Select an option</option> 
+					<option value="Student">Student</option>
+					<option value="Full Time Job">Full Time Job</option>
+					<option value="Full Time Leamer">Full Time Leamer</option>
+					<option value="Prefer not to say">Prefer not to say</option>
+					<option value="other">Other</option>					
+				</select>	
+			</div>
+			<div class="like">
+					<div class="likely-label">
+						<label name="likely"  value="likely">* How likely is that you would remommend freeCodeCamp to a friend?</label> 						
+					</div>
+					<div class="likely">
+					<br>
+						<input  type="radio" value="Definitely">Definitely</input><br>
+						<input  type="radio" value="Maybe">Maybe</input><br>
+						<input  type="radio" value="Note sure"> Note sure</input>		<br>	
+					</div>
+
+			</div>
+			<br>
+			<div>
+				<label id="FFC" >What do you like most in FCC: </label>
+				<select type ="dropdown" id="dropdown" selected="Select an option" required>
+					<option>Select an option</option> 
+					<option value="Challenges">Challenges</option>
+					<option value="Projects">Projects</option>
+					<option value="Community">Community</option>
+					<option value ="Open Source">Open Source</option>					
+				</select>
+			</div>		
+			<br>
+			<div class="like">
+				<div class="ffc-label">
+						<label name="likely"  value="likely">Things that should be improved in the future(Check all that applly):</label> 						
+				</div>
+				<div class="likely2">
+					<br> 
+						<input type ="checkbox" value="Front-end Projects">Front-end Projects</input> <br>
+						<input type ="checkbox" value="Back-end Projects">Back-end Projects</input> <br>
+						<input type ="checkbox" value="Data visualization">Data visualization</input> <br>
+						<input type ="checkbox" value="Challenges">Challenges</input> <br>
+						<input type ="checkbox" value="Open Source Community">Open Source Community</input> <br>
+						<input type ="checkbox" value="Gitter help rooms">Gitter help rooms</input> <br>	
+						<input type ="checkbox" value="Videos">Videos</input> <br>
+						<input type ="checkbox" value="City Meetups">City Meetups</input> <br>
+						<input type ="checkbox" value="Wiki">Wiki</input> <br>
+						<input type ="checkbox" value="Fourm">Fourm</input> <br>
+						<input type ="checkbox" value="Additional courses">Additional courses</input> <br>
+				</div>		
+			</div>
+			<div class="comment">
+				<div class="comment-label">
+					<label name="likely"  value="likely">Any Comments or Suggestions?</label> 						
+				</div>
+				<div class="comment-area">
+					<textarea name="Comments" value="comments" rows="4" cols="35" placeholder="Enter your coment here..."></textarea>
+				</div>
+			</div>
+			<input id="submit" type="submit" id="submit" value="Submit">
+		</div>
+	
+
+		</form>
+	</div> 
+  </body>
+</html>

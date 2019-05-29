@@ -1,0 +1,190 @@
+body
+{
+	background-color:   rgb(169,215,209);
+	font-size: 20px;
+	color: black;
+}
+
+input{
+	margin:10px;
+}
+
+form{
+	height:890px;
+	width:100%;
+	display:center;
+	margin: 0px;
+}
+
+
+
+.container{
+	background-color: white;
+	height:950px;
+	width:1000px;
+	margin-left:150px;
+
+}
+
+.comment{
+	margin-top:300px;
+	height:100px;
+	width:800px;
+	display:flex;
+	
+}
+.comment-area{
+	padding-top:20px;
+	padding-left:0px;
+	margin-left:0px;
+	margin-right:26px;
+	flex:1;
+}
+
+.comment-label{
+	width:1000px;
+	padding-left:190px;
+	margin-right:0px;
+	padding-right:0px;
+	margin-top:0px;
+	flex:1;
+}
+
+.likely2{
+	padding-top:20px;
+	padding-top:0px;
+	margin-left:90px;
+	padding-left:10px;
+	flex:1;
+}
+
+
+	.lab{
+	padding-left:20px;
+	}
+	.ip-age{
+	margin-left:26px;
+	}
+
+
+.like{
+	height:100px;
+	width:800px;
+	display:flex;
+	
+}
+.likely{
+	padding-top:20px;
+	padding-top:0px;
+	margin-left:120px;
+	flex:1;
+}
+
+.likely-label{
+	width:1000px;
+	padding-left:30px;
+	margin-right:0px;
+	padding-right:0px;
+	margin-top:20px;
+	flex:1;
+}
+
+.ffc-label{
+	width:1000px;
+	padding-left:20px;
+	margin-right:25px;
+	padding-right:0px;
+	margin-top:20px;
+	flex:1;
+}
+
+
+
+#description{
+	padding-top:20px;
+	padding-left:300px;
+}
+
+
+#title{
+	padding-left:40%;
+	padding-right:60%:
+	
+}
+
+
+
+
+#name-label{
+	padding-left:400px;
+}
+
+#number-label{
+	padding-left:400px;
+}
+
+#email-label{
+	padding-left:400px;
+
+}
+#name{
+	
+}
+
+
+
+#email{
+	
+}
+
+
+#age-box{
+	padding-left:180px;
+}
+
+#rol{
+	padding-left:90px;
+}
+
+
+#FFC{
+	margin-top:30px;
+	padding-left:210px;
+}
+#dropdown{
+	margin-left:16px;
+}
+
+
+
+
+
+
+#submit{
+	background-color: rgb(89,172,224);
+	width:100px;
+	height:40px;
+	padding: 10px 10px 10px 10px;
+	margin-left:430px;
+	color:white;
+	font-size:19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
